@@ -1,0 +1,38 @@
+#video{
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+#title {
+  color: white;
+  font-size: 8em;
+  margin-bottom: 10px;
+}
+
+#city-data {
+  color: white;
+}
+
+
+#city-data > li:hover {
+  cursor: pointer;
+  margin-left: 10px;
+  transition: margin-left 1s;
+}
+
+.forecast {
+  color: white;
+  font-size: 2em;
+}
+
+.icon > img {
+  height: 75px; 
+  width: 75px; 
+
+}
